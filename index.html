@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev University</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Kanit:ital@1&family=Martian+Mono:wght@500&family=Merriweather&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+
+<!-- ------------Header------------ -->
+<section class="header">
+    <nav>
+            <a href="index.html"><img src="images/CaliTechnium Logo.png" alt=""></a>
+        <div class="nav-links">
+            <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="">COURSE</a></li>
+                <li><a href="">BLOG</a></li>
+                <li><a href="">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+    </nav>
+<div class="text-box">
+    <h1>Online University</h1>
+    <p>The roadmap we choose decides the outcome <br> "WELL BEGUN HALF DONE"</p>
+    <a href="" class="hero-btn">Visit Us To Know More</a>
+</div>
+<!-- ----------footer---------- -->
+
+<div class="foot">
+
+    <footer>
+        <p>Author: Caliber</p>
+        <p><a href="https://github.com/Caliber619">GitHub</a></p>
+    </footer>
+</div>
+</section>
+
+
+<!-- ------------Course------------ -->
+
+
+
+
+
+
+
+
+
+
+<!-- ------- javascript for toggle menu ------- -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
